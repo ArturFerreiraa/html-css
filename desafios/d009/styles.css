@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100vh;
+}
+
+a {
+    color: #fff;
+    display: inline;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
+#playlist {
+    margin: 0 160px
+}
+
+#voltar {
+    display: block;
+}
