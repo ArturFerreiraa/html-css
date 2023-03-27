@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        height: 290px;
+    }
+
+    #image-section {
+        width: 50%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #form-section .input-field input {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #container {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 950px;
+        height: 350px;
+    }
+
+    #image-section {
+        width: 90%;
+        height: 100%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    #form-section h1 {
+        font-size: 2em;
+        margin: 10px 0 20px;
+    }
+
+    #form-section p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+}
